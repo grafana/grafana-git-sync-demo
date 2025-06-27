@@ -1,7 +1,7 @@
 services:
   ngrok:
     image: ngrok/ngrok:latest
-    command: http --url=${NGROK_DOMAIN} grafana:3000
+    command: http --url=${NGROK_SUBDOMAIN} grafana:3000
     environment:
       NGROK_AUTHTOKEN: ${NGROK_AUTHTOKEN}
   grafana:
@@ -10,7 +10,7 @@ services:
       - GF_FEATURE_TOGGLES_ENABLE=provisioning,kubernetesDashboards
       - GF_RENDERING_SERVER_URL=http://renderer:8081/render
       - GF_RENDERING_CALLBACK_URL=http://grafana:3000/
-      - GF_SERVER_ROOT_URL=https://${NGROK_DOMAIN}
+      - GF_SERVER_ROOT_URL=https://${NGROK_SUBDOMAIN}
 
     volumes:
       - grafana-data:/var/lib/grafana
