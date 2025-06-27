@@ -1,6 +1,6 @@
 # grafana-git-sync-demo
 
-Hey there! This is a fun demo showing how to use [Grafana Git Sync](https://grafana.com/docs/grafana/latest/observability-as-code/provision-resources/git-sync-setup/) and [grafanactl](https://github.com/grafana/grafanactl).
+Hey there! This is a demo showing how to use [Grafana Git Sync](https://grafana.com/docs/grafana/latest/observability-as-code/provision-resources/git-sync-setup/) and [grafanactl](https://github.com/grafana/grafanactl).
 
 > [!NOTE]
 > This documentation reflects the state of Git Sync as of May 2025. As this feature is actively evolving, some instructions may become outdated quickly. Please refer to the [official Grafana documentation](https://grafana.com/docs/grafana/latest/observability-as-code/provision-resources/git-sync-setup/) for the most up-to-date information.
