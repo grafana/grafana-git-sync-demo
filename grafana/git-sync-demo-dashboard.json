@@ -60,18 +60,18 @@
         "fieldConfig": {
           "defaults": {
             "color": {
-              "mode": "continuous-greens"
+              "mode": "continuous-reds"
             },
             "mappings": [],
             "thresholds": {
               "mode": "absolute",
               "steps": [
                 {
-                  "color": "green",
+                  "color": "red",
                   "value": 0
                 },
                 {
-                  "color": "red",
+                  "color": "dark-red",
                   "value": 80
                 }
               ]
