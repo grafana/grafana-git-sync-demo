@@ -60,7 +60,7 @@
         "fieldConfig": {
           "defaults": {
             "color": {
-              "mode": "continuous-reds"
+              "mode": "continuous-YlOrRd"
             },
             "mappings": [],
             "thresholds": {
