@@ -2,7 +2,7 @@
   "apiVersion": "dashboard.grafana.app/v1beta1",
   "kind": "Dashboard",
   "metadata": {
-    "name": "409ff9a7-d996-4cc2-99f7-c99c4e10d60d"
+    "name": "dbewdh3rjn6ayod"
   },
   "spec": {
     "annotations": {
@@ -21,7 +21,6 @@
         }
       ]
     },
-    "description": "1",
     "editable": true,
     "fiscalYearStartMonth": 0,
     "graphTooltip": 0,
@@ -39,6 +38,6 @@
     },
     "timepicker": {},
     "timezone": "browser",
-    "title": "21 222 1111"
+    "title": "1"
   }
 }
