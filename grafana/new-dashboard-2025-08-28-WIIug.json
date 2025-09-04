@@ -33,11 +33,11 @@
       "list": []
     },
     "time": {
-      "from": "2025-09-03T16:55:50.073Z",
-      "to": "2025-09-03T22:56:09.793Z"
+      "from": "now-15m",
+      "to": "now"
     },
     "timepicker": {},
     "timezone": "browser",
-    "title": "HAPPY 100"
+    "title": "HAPPY 200"
   }
 }
