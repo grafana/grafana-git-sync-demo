@@ -39,8 +39,10 @@
       "from": "now-6h",
       "to": "now"
     },
-    "timepicker": {},
-    "timezone": "Africa/Abidjan",
+    "timepicker": {
+      "hidden": true
+    },
+    "timezone": "",
     "title": "A"
   }
 }
