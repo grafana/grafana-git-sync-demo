@@ -29,7 +29,8 @@
     "preload": false,
     "schemaVersion": 42,
     "tags": [
-      "MIYA"
+      "MIYA",
+      "APPLE"
     ],
     "templating": {
       "list": []
