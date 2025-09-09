@@ -21,7 +21,7 @@
         }
       ]
     },
-    "editable": false,
+    "editable": true,
     "fiscalYearStartMonth": 0,
     "graphTooltip": 0,
     "links": [],
@@ -41,7 +41,6 @@
     },
     "timepicker": {},
     "timezone": "browser",
-    "title": "A",
-    "weekStart": "monday"
+    "title": "A"
   }
 }
