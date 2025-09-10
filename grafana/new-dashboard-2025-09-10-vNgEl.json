@@ -29,7 +29,8 @@
     "preload": false,
     "schemaVersion": 42,
     "tags": [
-      "Tag D"
+      "Tag D",
+      "Tag New"
     ],
     "templating": {
       "list": []
