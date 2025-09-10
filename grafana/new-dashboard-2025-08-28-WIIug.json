@@ -30,7 +30,8 @@
     "preload": false,
     "schemaVersion": 42,
     "tags": [
-      "Tag A"
+      "Tag A",
+      "Tag B"
     ],
     "templating": {
       "list": []
