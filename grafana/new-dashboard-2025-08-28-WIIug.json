@@ -29,7 +29,9 @@
     "panels": [],
     "preload": false,
     "schemaVersion": 42,
-    "tags": [],
+    "tags": [
+      "Tag A"
+    ],
     "templating": {
       "list": []
     },
