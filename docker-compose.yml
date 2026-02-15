@@ -1,11 +1,11 @@
 services:
   ngrok:
-    image: ngrok/ngrok:latest
+    image: ngrok/ngrok:latest@sha256:07bd8fa758e73489d3ba5a2fc95d912e0b8359ebfca4a55886e2059c10020da4
     command: http --url=${NGROK_SUBDOMAIN} grafana:3000
     environment:
       NGROK_AUTHTOKEN: ${NGROK_AUTHTOKEN}
   grafana:
-    image: grafana/grafana:main
+    image: grafana/grafana:main@sha256:094ea6288409bca97a4329cdd07d65c76aa829788428c71ba89fd39f09e18500
     environment:
       - GF_FEATURE_TOGGLES_ENABLE=provisioning,kubernetesDashboards
       - GF_RENDERING_SERVER_URL=http://renderer:8081/render
@@ -21,7 +21,7 @@ services:
       - ngrok
     restart: unless-stopped
   renderer:
-    image: grafana/grafana-image-renderer:latest
+    image: grafana/grafana-image-renderer:latest@sha256:36e89efeb2a384e39ac06a3aaa5e5f44474dbd425c1353a150005fca31e4dcd7
     ports:
       - 8081
 
